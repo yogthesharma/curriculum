@@ -1,14 +1,14 @@
 # Full-Stack Learning Curriculum
 
-End-to-end full-stack learning path: foundations → data → backend → frontend → security → infra → capstones.
+Optional **index only**. Every topic is its own independent GitHub repo — clone one, work in one, finish one. Nothing here is required to study a topic, and no topic repo depends on another.
 
-Each topic lives in its **own repo** so things stay focused and uncluttered.
+Use this checklist if you want a bird’s-eye progress view. Skip it if you prefer working repo-by-repo.
 
-## How to use
+## Independence rule
 
-1. Work repos in order within a phase (or jump if you already know a topic).
-2. Check boxes below as you finish each repo's goals.
-3. Open a topic repo for notes, exercises, and mini-projects.
+- Each topic repo has its own README with full context, scope, outcomes, and checklist.
+- No shared code, packages, or required links between topic repos.
+- Order below is a suggested path, not a prerequisite graph. Jump anywhere.
 
 ## Progress checklist
 
@@ -63,7 +63,7 @@ Each topic lives in its **own repo** so things stay focused and uncluttered.
 
 | # | Repo | Phase |
 |---|------|-------|
-| 1 | [dsa](https://github.com/yogthesharma/dsa-foundations) | Foundations |
+| 1 | [dsa-foundations](https://github.com/yogthesharma/dsa-foundations) | Foundations |
 | 2 | [computer-architecture](https://github.com/yogthesharma/computer-architecture) | Foundations |
 | 3 | [operating-systems](https://github.com/yogthesharma/operating-systems) | Foundations |
 | 4 | [concurrency-and-parallelism](https://github.com/yogthesharma/concurrency-and-parallelism) | Foundations |
@@ -92,17 +92,13 @@ Each topic lives in its **own repo** so things stay focused and uncluttered.
 
 ## Local layout
 
-All topic folders live next to this curriculum index under `full-stack/`:
-
 ```
 full-stack/
-├── curriculum/          ← you are here
+├── curriculum/          ← optional index (this repo)
 ├── dsa/
 ├── computer-architecture/
 ├── ...
 └── ai-and-ml-basics/
 ```
 
----
-
-_Start with Foundations. Ship notes and exercises in each repo as you go._
+Each folder under `full-stack/` is a separate git remote. Open one folder = one complete study unit.
